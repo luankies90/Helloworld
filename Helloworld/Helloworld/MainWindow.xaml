@@ -3,6 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button Content="Show" HorizontalAlignment="Left" Margin="218,55,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,27,0,0" TextWrapping="Wrap" Text="Helloworld" VerticalAlignment="Top" Width="497" TextChanged="TextBox_TextChanged_1"/>
+
     </Grid>
 </Window>
